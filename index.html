@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Plinko-PlayCenter – Deine Welt der Brettspiele</title>
+    <meta name="keywords"
+        content="Brettspiele kaufen, Gesellschaftsspiele online, Kartenspiele für Kinder, Familienspiele ab 4 Jahren, Strategie Brettspiele, Partyspiele für Erwachsene, Würfelspiele, exklusive Brettspiele">
+    <meta name="description"
+        content="Tauche ein in die faszinierende Welt der Brettspiele! Bei Plinko-PlayCenter findest du Strategie-, Familien- und Partyspiele für jedes Alter. Jetzt entdecken!">
+
+    <link href="img/ico.png" rel="icon">
+    <link rel="preconnect" href="https:fonts.googleapis.com">
+    <link rel="preconnect" href="https:fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Lora:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="cookie-banner" class="cookie-banner">
+        <p>
+            Wir verwenden Cookies, um Ihre Erfahrung zu verbessern. Durch die weitere Nutzung unserer Website
+            akzeptieren Sie unsere
+            <a href="cookie.html">Cookie-Richtlinie</a> und unsere
+            <a href="terms.html">Allgemeinen Geschäftsbedingungen</a>.
+        </p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies">Akzeptieren</button>
+            <button id="decline-cookies">Ablehnen</button>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="text-white m-0">Plinko-PlayCenter</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link ">Startseite</a>
+                <a href="#about" class="nav-item nav-link">Über uns</a>
+                <a href="#games" class="nav-item nav-link">Spiele</a>
+                <a href="#faq" class="nav-item nav-link">FAQ</a>
+                <a href="#services" class="nav-item nav-link">Unsere Services</a>
+                <a href="#contact" class="nav-item nav-link">Kontakt</a>
+                <a href="#testi" class="nav-item nav-link">Kundenbewertungen</a>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/bg-1.jpg" alt="Plinko-Play-Center">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <p class="text-white text-uppercase fw-bold mb-2"> Deine erste Adresse für
+                                    Brettspiele</p>
+                                <h1 class="display-1 text-light mb-4 animated slideInDown">Taktik & Spaß in Perfektion!
+                                </h1>
+                                <p class="text-light fs-5 mb-4 pb-3">Tauche ein in eine Welt voller Abenteuer und
+                                    Herausforderungen.
+                                    Wähle aus einer riesigen Auswahl an spannenden Brettspielen!</p>
+                                <a href="#games" class="btn btn-primary rounded-pill py-3 px-5">Jetzt entdecken</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/bg-2.jpg" alt="Plinko-Play-Center">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <p class="text-white text-uppercase fw-bold mb-2"> Spiele für jedes Alter und jeden
+                                    Geschmack</p>
+                                <h1 class="display-1 text-light mb-4 animated slideInDown">Gemeinsam spielen & erleben!
+                                </h1>
+                                <p class="text-light fs-5 mb-4 pb-3">Erlebe magische Spielabende mit Familie und
+                                    Freunden.
+                                    Entdecke fesselnde Brettspiele, die für endlose Unterhaltung sorgen!</p>
+                                <a href="#games" class="btn btn-primary rounded-pill py-3 px-5">Jetzt stöbern</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid rounded w-100 h-100" src="img/about.jpg" alt="Plinko-PlayCenter">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <p class="text-primary text-uppercase mb-2"> Wer wir sind</p>
+                        <h1 class="display-6 mb-4">Tauche ein in die Welt der Brettspiele mit Plinko-PlayCenter</h1>
+                        <p>Willkommen bei deinem Experten für Brettspiele! Ob Strategie, Logik oder reines Vergnügen –
+                            unsere sorgfältig ausgewählten Spiele garantieren Spaß für Groß und Klein.</p>
+                        <p>Unsere Leidenschaft ist es, Menschen durch gemeinsames Spielen zu verbinden.
+                            Lass dich von unserer hochwertigen Auswahl inspirieren und entdecke dein neues
+                            Lieblingsspiel!</p>
+                        <div class="row g-2 mb-4">
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Vielfältige Spielgenres
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Exklusive Sammlerstücke
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Bequeme Online-Bestellung
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Express-Versand möglich
+                            </div>
+                        </div>
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="#games">Jetzt entdecken</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="games" class="container-xxl py-6">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2">Unsere Spiele</p>
+                <h1 class="display-6 mb-4">Entdecke unsere neuesten Brettspiele</h1>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="game-item bg-white rounded text-center p-3">
+                        <img src="img/g-8.png" alt="Da ist der Wurm drin">
+                        <h5 class="mb-2">Da ist der Wurm drin</h5>
+                        <p>Kartenspiel für Kinder ab 4 Jahren – schnell, lustig & unterhaltsam!</p>
+                        <a href="#contact" class="btn btn-primary rounded-pill py-2 px-4">Mehr erfahren</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="game-item bg-white rounded text-center p-3">
+                        <img src="img/g-7.png" alt="Auf der Hut">
+                        <h5 class="mb-2">Auf der Hut</h5>
+                        <p>Ein lustiges Spiel für Kinder ab 5 Jahren mit schnellen Reaktionen.</p>
+                        <a href="#contact" class="btn btn-primary rounded-pill py-2 px-4">Mehr erfahren</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="game-item bg-white rounded text-center p-3">
+                        <img src="img/g-6.png" alt="Mana Mana">
+                        <h5 class="mb-2">Mana Mana</h5>
+                        <p>Strategie- und Denkspiel für Erwachsene & Jugendliche.</p>
+                        <a href="#contact" class="btn btn-primary rounded-pill py-2 px-4">Mehr erfahren</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="game-item bg-white rounded text-center p-3">
+                        <img src="img/g-5.png" alt="Maldivia">
+                        <h5 class="mb-2">Maldivia</h5>
+                        <p>Ein Abenteuer-Brettspiel mit exotischem Setting.</p>
+                        <a href="#contact" class="btn btn-primary rounded-pill py-2 px-4">Mehr erfahren</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mt-3">
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="game-item bg-white rounded text-center p-3">
+                        <img src="img/g-4.png" alt="Go Gecko Go!">
+                        <h5 class="mb-2">Go Gecko Go!</h5>
+                        <p>Ein spannendes Rennspiel mit Tieren für die ganze Familie.</p>
+                        <a href="#contact" class="btn btn-primary rounded-pill py-2 px-4">Mehr erfahren</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="game-item bg-white rounded text-center p-3">
+                        <img src="img/g-3.png" alt="Fruddel Muddel">
+                        <h5 class="mb-2">Fruddel Muddel</h5>
+                        <p>Ein farbenfrohes Spiel mit Früchten & Wortspielen.</p>
+                        <a href="#contact" class="btn btn-primary rounded-pill py-2 px-4">Mehr erfahren</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="game-item bg-white rounded text-center p-3">
+                        <img src="img/g-2.png" alt="Chance It">
+                        <h5 class="mb-2">Chance It</h5>
+                        <p>Ein unterhaltsames Würfelspiel mit Überraschungen.</p>
+                        <a href="#contact" class="btn btn-primary rounded-pill py-2 px-4">Mehr erfahren</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="game-item bg-white rounded text-center p-3">
+                        <img src="img/g-1.png" alt="Heckmeck am Bratwurmeck">
+                        <h5 class="mb-2">Heckmeck am Bratwurmeck</h5>
+                        <p>Ein Mini-Würfelspiel für unterwegs mit viel Spaß!</p>
+                        <a href="#contact" class="btn btn-primary rounded-pill py-2 px-4">Mehr erfahren</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="faq" class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid rounded w-100 h-100" style="object-fit: cover;" src="img/faq.jpg"
+                            alt="FAQ - Plinko-PlayCenter">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="text-primary text-uppercase mb-2"> Häufig gestellte Fragen</p>
+                    <h1 class="display-6 mb-4">FAQ – Alles, was du wissen musst</h1>
+
+                    <div class="accordion" id="faqAccordion">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#answer1">
+                                    Welche Brettspiele bietet ihr an?
+                                </button>
+                            </h2>
+                            <div id="answer1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Wir haben eine breite Auswahl von Strategie- und Familienspielen bis hin zu Party-
+                                    und Kartenspielen.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#answer2">
+                                    Wie lange dauert die Lieferung?
+                                </button>
+                            </h2>
+                            <div id="answer2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Die Lieferzeit beträgt in der Regel 1–3 Werktage innerhalb Deutschlands.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#answer3">
+                                    Gibt es Rabatte für größere Bestellungen?
+                                </button>
+                            </h2>
+                            <div id="answer3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ja! Für Großbestellungen bieten wir individuelle Rabattoptionen an. Kontaktiere uns
+                                    einfach für ein Angebot.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#answer4">
+                                    Kann ich meine Bestellung zurückgeben?
+                                </button>
+                            </h2>
+                            <div id="answer4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ja, du kannst unbenutzte Spiele innerhalb von 14 Tagen zurücksenden.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#answer5">
+                                    Welche Zahlungsmethoden akzeptiert ihr?
+                                </button>
+                            </h2>
+                            <div id="answer5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Wir akzeptieren Kreditkarten, PayPal, Klarna und Banküberweisungen.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services" class="container-xxl py-6">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <p class="text-primary text-uppercase mb-2"> Unsere Leistungen</p>
+                <h1 class="display-6 mb-5">Dein Spezialist für einzigartige Brettspiele & mehr</h1>
+            </div>
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded text-center p-4">
+                        <i class="fa fa-dice fa-3x text-primary mb-3"></i>
+                        <h5 class="mb-2">Große Spielvielfalt</h5>
+                        <p>Ob Strategie, Partyspiele oder Klassiker – für jeden Geschmack das Richtige!</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item bg-light rounded text-center p-4">
+                        <i class="fa fa-trophy fa-3x text-primary mb-3"></i>
+                        <h5 class="mb-2">Limitierte Editionen</h5>
+                        <p>Entdecke seltene und exklusive Sammlerstücke, die es nur bei uns gibt.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded text-center p-4">
+                        <i class="fa fa-shipping-fast fa-3x text-primary mb-3"></i>
+                        <h5 class="mb-2">Express-Versand</h5>
+                        <p>Blitzschnelle Lieferung, damit dein Spielspaß nicht lange warten muss.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item bg-light rounded text-center p-4">
+                        <i class="fa fa-gift fa-3x text-primary mb-3"></i>
+                        <h5 class="mb-2">Geschenkverpackung</h5>
+                        <p>Individuelle Geschenkoptionen für wahre Brettspiel-Liebhaber.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mt-3">
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded text-center p-4">
+                        <i class="fa fa-users fa-3x text-primary mb-3"></i>
+                        <h5 class="mb-2">Community-Treffen</h5>
+                        <p>Triff Gleichgesinnte und erlebe spannende Turniere & Events.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-item bg-light rounded text-center p-4">
+                        <i class="fa fa-question-circle fa-3x text-primary mb-3"></i>
+                        <h5 class="mb-2">Experten-Beratung</h5>
+                        <p>Unsere Profis helfen dir, das perfekte Spiel für dich zu finden.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded text-center p-4">
+                        <i class="fa fa-cogs fa-3x text-primary mb-3"></i>
+                        <h5 class="mb-2">Personalisierte Spiele</h5>
+                        <p>Gestalte deine eigenen Brettspiel-Designs mit unserem Service!</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="service-item bg-light rounded text-center p-4">
+                        <i class="fa fa-shopping-cart fa-3x text-primary mb-3"></i>
+                        <h5 class="mb-2">Sichere Bestellungen</h5>
+                        <p>Garantierter Käuferschutz & einfache Bestellprozesse für ein sorgenfreies Einkaufserlebnis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container-xxl py-6">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2"> Kontaktiere uns</p>
+                <h1 class="display-6 mb-4">Wir sind für dich da – Schreib uns eine Nachricht!</h1>
+                <p class="mb-3">Hast du Fragen zu unseren Brettspielen oder möchtest du eine persönliche Beratung?
+                    Unser Team hilft dir gerne weiter!</p>
+            </div>
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                    <form action="thankyou.php" method="post">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Vollständiger Name"
+                                        required>
+                                    <label for="name">Vollständiger Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="E-Mail-Adresse"
+                                        required>
+                                    <label for="email">E-Mail-Adresse</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="tel" class="form-control" id="phone" placeholder="Telefon (optional)">
+                                    <label for="phone">Telefon (optional)</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Deine Nachricht" id="message"
+                                        style="height: 200px" required></textarea>
+                                    <label for="message">Deine Nachricht</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Jetzt
+                                    senden</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="testi" class="container-xxl bg-light my-6 py-6">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2"> Kundenmeinungen</p>
+                <h1 class="display-6 mb-4">Über 20.000 zufriedene Kunden empfehlen uns weiter!</h1>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item bg-white rounded p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <img class="flex-shrink-0 rounded-circle border p-1 img-testi" src="img/rev-1.png" alt="">
+                            <div class="ms-3">
+                                <h5 class="mb-1">Lukas Hoffmann</h5>
+                                <span>Spielesammler</span>
+                            </div>
+                        </div>
+                        <p class="mb-0">"Plinko-PlayCenter hat eine beeindruckende Auswahl an Brettspielen. Ich konnte
+                            hier seltene Sammlerstücke finden, die sonst nirgendwo verfügbar sind!"</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="testimonial-item bg-white rounded p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <img class="flex-shrink-0 rounded-circle border p-1 img-testi" src="img/rev-2.png" alt="">
+                            <div class="ms-3">
+                                <h5 class="mb-1">Hanna Fischer</h5>
+                                <span>Brettspiel-Fan</span>
+                            </div>
+                        </div>
+                        <p class="mb-0">"Ich liebe es, neue Spiele auszuprobieren, und hier gibt es eine riesige
+                            Auswahl! Besonders gut gefällt mir die schnelle Lieferung und der freundliche Support."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 mt-2">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="testimonial-item bg-white rounded p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <img class="flex-shrink-0 rounded-circle border p-1 img-testi" src="img/rev-3.png" alt="">
+                            <div class="ms-3">
+                                <h5 class="mb-1">Felix Schneider</h5>
+                                <span>Familienvater</span>
+                            </div>
+                        </div>
+                        <p class="mb-0">"Dank Plinko-PlayCenter verbringen wir jetzt mehr Zeit als Familie beim Spielen.
+                            Die Qualität der Spiele ist hervorragend, und die Preise sind fair."</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="testimonial-item bg-white rounded p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <img class="flex-shrink-0 rounded-circle border p-1 img-testi" src="img/rev-4.png" alt="">
+                            <div class="ms-3">
+                                <h5 class="mb-1">Sophia Keller</h5>
+                                <span>Strategie-Liebhaberin</span>
+                            </div>
+                        </div>
+                        <p class="mb-0">"Ich bin begeistert von der Auswahl an Strategie-Spielen. Perfekt für lange
+                            Spieleabende mit Freunden – absolut empfehlenswert!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Kontaktiere uns</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Goltzstraße 45, 10781 Berlin, Deutschland
+                    </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+49 30 821 0597</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>support@plinko-playcenter.de</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Schnelle Links</h4>
+                    <a class="btn btn-link" href="index.html">Startseite</a>
+                    <a class="btn btn-link" href="#about">Über uns</a>
+                    <a class="btn btn-link" href="#games">Spiele</a>
+                    <a class="btn btn-link" href="#faq">FAQ</a>
+                    <a class="btn btn-link" href="#services">Unsere Services</a>
+                    <a class="btn btn-link" href="#contact">Kontakt</a>
+                    <a class="btn btn-link" href="#testi">Kundenbewertungen</a>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Informationen</h4>
+                    <a class="btn btn-link" href="privacy.html">Datenschutzrichtlinie</a>
+                    <a class="btn btn-link" href="terms.html">Allgemeine Geschäftsbedingungen</a>
+                    <a class="btn btn-link" href="cookie.html">Cookie-Richtlinie</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter abonnieren</h4>
+                    <p class="mb-3">Bleibe auf dem Laufenden über neue Brettspiele, exklusive Angebote und Events!</p>
+                    <form action="thankyou.php" method="post">
+                        <div class="input-group">
+                            <input type="email" class="form-control border-0 p-3" placeholder="Deine E-Mail" required>
+                            <button class="btn btn-primary px-4" type="submit">Abonnieren</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid copyright text-light py-4 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a style="color: #fff; font-weight: 900;" href="index.html">Plinko-PlayCenter</a>, 2025 Alle
+                    Rechte vorbehalten.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
